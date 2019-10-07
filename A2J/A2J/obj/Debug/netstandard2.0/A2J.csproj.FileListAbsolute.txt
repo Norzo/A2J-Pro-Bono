@@ -1,0 +1,15 @@
+D:\Git\Repos\A2J-Pro-Bono\A2J\A2J\bin\Debug\netstandard2.0\A2J.deps.json
+D:\Git\Repos\A2J-Pro-Bono\A2J\A2J\bin\Debug\netstandard2.0\A2J.dll
+D:\Git\Repos\A2J-Pro-Bono\A2J\A2J\bin\Debug\netstandard2.0\A2J.pdb
+D:\Git\Repos\A2J-Pro-Bono\A2J\A2J\obj\Debug\netstandard2.0\A2J.csproj.CoreCompileInputs.cache
+D:\Git\Repos\A2J-Pro-Bono\A2J\A2J\obj\Debug\netstandard2.0\A2J.AssemblyInfoInputs.cache
+D:\Git\Repos\A2J-Pro-Bono\A2J\A2J\obj\Debug\netstandard2.0\A2J.AssemblyInfo.cs
+D:\Git\Repos\A2J-Pro-Bono\A2J\A2J\obj\Debug\netstandard2.0\A2J.dll
+D:\Git\Repos\A2J-Pro-Bono\A2J\A2J\obj\Debug\netstandard2.0\A2J.pdb
+D:\Git\Repos\A2J-Pro-Bono\A2J\A2J\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Git\Repos\A2J-Pro-Bono\A2J\A2J\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+D:\Git\Repos\A2J-Pro-Bono\A2J\A2J\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+D:\Git\Repos\A2J-Pro-Bono\A2J\A2J\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+D:\Git\Repos\A2J-Pro-Bono\A2J\A2J\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+D:\Git\Repos\A2J-Pro-Bono\A2J\A2J\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+D:\Git\Repos\A2J-Pro-Bono\A2J\A2J\obj\Debug\netstandard2.0\XamlC.stamp

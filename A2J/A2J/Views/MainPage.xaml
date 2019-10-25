@@ -1,28 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
-            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-            xmlns:views="clr-namespace:A2J.Views"
-            x:Class="A2J.Views.MainPage">
-    <TabbedPage.Children>
-        <NavigationPage Title="Browse">
-            <NavigationPage.Icon>
-                <OnPlatform x:TypeArguments="FileImageSource">
-                    <On Platform="iOS" Value="tab_feed.png"/>
-                </OnPlatform>
-            </NavigationPage.Icon>
-            <x:Arguments>
-                <views:ItemsPage />
-            </x:Arguments>
-        </NavigationPage>
-        <NavigationPage Title="About">
-            <NavigationPage.Icon>
-                <OnPlatform x:TypeArguments="FileImageSource">
-                    <On Platform="iOS" Value="tab_about.png"/>
-                </OnPlatform>
-            </NavigationPage.Icon>
-            <x:Arguments>
-                <views:AboutPage />
-            </x:Arguments>
-        </NavigationPage>
-    </TabbedPage.Children>
-</TabbedPage>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:abstractions="clr-namespace:ImageButton.Abstractions;assembly=ImageButton.Abstractions"
+             x:Class="A2J.Views.MainPage">
+    <Grid Padding="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Label Text="A2J" FontSize="Medium" VerticalOptions="Start" HorizontalOptions="Start" Grid.Row="0" Grid.Column="2"></Label>
+        <Button Text="1" BackgroundColor="Red" Clicked="NavigateToRights_Clicked" WidthRequest="200" HeightRequest="50" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="5" CornerRadius="3"></Button>
+        <Button Text="2" BackgroundColor="Green" Clicked="NavigateToRights_Clicked" WidthRequest="200" HeightRequest="50" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="5" CornerRadius="3"></Button>
+        <Button Text="3" BackgroundColor="Black" Clicked="NavigateToRights_Clicked" WidthRequest="200" HeightRequest="50" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="5" CornerRadius="3"></Button>
+        <Button Text="4" BackgroundColor="Magenta" Clicked="NavigateToRights_Clicked" WidthRequest="250" HeightRequest="50" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="5" CornerRadius="3"></Button>
+        <Button Text="5" BackgroundColor="Purple" Clicked="NavigateToRights_Clicked" WidthRequest="275" HeightRequest="50" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="5" CornerRadius="3"></Button>
+        <Button Text="1.2" BackgroundColor="Azure" Clicked="NavigateToRights_Clicked" WidthRequest="50" HeightRequest="50" Grid.Row="6" Grid.Column="0"></Button>
+        <Button Text="1.4" BackgroundColor="Azure" Clicked="NavigateToRights_Clicked" WidthRequest="75" HeightRequest="75" Grid.Row="6" Grid.Column="2"></Button>
+        <Button Text="1.6" BackgroundColor="BlanchedAlmond" Clicked="NavigateToRights_Clicked" WidthRequest="75" HeightRequest="75" Grid.Row="6" Grid.Column="4"></Button>
+    </Grid>
+</ContentPage>

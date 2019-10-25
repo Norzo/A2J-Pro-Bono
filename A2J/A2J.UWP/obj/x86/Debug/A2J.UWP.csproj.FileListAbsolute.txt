@@ -9,10 +9,15 @@ D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.UWP\bin\x86\Debug\Core\A2J.UWP.exe
 D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.UWP\bin\x86\Debug\Core\AppxManifest.xml
 D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.UWP\bin\x86\Debug\A2J.UWP.build.appxrecipe
 D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.UWP\bin\x86\Debug\System.Runtime.dll
+D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.UWP\bin\x86\Debug\Microsoft.Graphics.Canvas.dll
+D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.UWP\bin\x86\Debug\Microsoft.Graphics.Canvas.winmd
 D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.UWP\bin\x86\Debug\Xamarin.Forms.Core.dll
+D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.UWP\bin\x86\Debug\Xamarin.Forms.Core.pdb
 D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.UWP\bin\x86\Debug\Xamarin.Forms.Platform.UAP.dll
+D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.UWP\bin\x86\Debug\Xamarin.Forms.Platform.UAP.pdb
 D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.UWP\bin\x86\Debug\Xamarin.Forms.Platform.dll
 D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.UWP\bin\x86\Debug\Xamarin.Forms.Xaml.dll
+D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.UWP\bin\x86\Debug\Xamarin.Forms.Xaml.pdb
 D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.UWP\bin\x86\Debug\A2J.dll
 D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.UWP\bin\x86\Debug\A2J.pdb
 D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.UWP\obj\x86\Debug\A2J.UWP.csprojAssemblyReference.cache
@@ -49,9 +54,4 @@ D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.UWP\obj\x86\Debug\qualifiers.txt.intermediate
 D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.UWP\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.UWP\obj\x86\Debug\Xamarin.Forms.Platform.UAP.pri.xml
 D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.UWP\obj\x86\Debug\ProjectArchitectures.txt
-D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.UWP\bin\x86\Debug\Xamarin.Forms.Core.pdb
-D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.UWP\bin\x86\Debug\Xamarin.Forms.Platform.UAP.pdb
-D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.UWP\bin\x86\Debug\Xamarin.Forms.Xaml.pdb
-D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.UWP\bin\x86\Debug\Microsoft.Graphics.Canvas.dll
-D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.UWP\bin\x86\Debug\Microsoft.Graphics.Canvas.winmd
 D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_636160715180000000.json

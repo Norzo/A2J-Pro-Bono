@@ -9,12 +9,14 @@ namespace A2J
     public partial class App : Application
     {
 
+
+
         public App()
         {
+
+            MainPage = new NavigationPage(new MainPage());
+
             InitializeComponent();
-
-
-            MainPage = new MainPage();
         }
 
         protected override void OnStart()

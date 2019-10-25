@@ -1,14 +1,14 @@
-D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.Android\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
-D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.Android\obj\Debug\81\A2J.Android.csprojAssemblyReference.cache
-D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.Android\obj\Debug\81\libraryimports.cache.stamp
-D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.Android\obj\Debug\81\res.flag
 D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.Android\bin\Debug\A2J.Android.dll
 D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.Android\bin\Debug\A2J.Android.pdb
 D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.Android\bin\Debug\com.companyname.A2J.apk
 D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.Android\bin\Debug\com.companyname.A2J-Signed.apk
 D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.Android\bin\Debug\A2J.dll
 D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.Android\bin\Debug\A2J.pdb
+D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.Android\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
 D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.Android\obj\Debug\81\A2J.Android.nuget.stamp
+D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.Android\obj\Debug\81\A2J.Android.csprojAssemblyReference.cache
+D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.Android\obj\Debug\81\libraryimports.cache.stamp
+D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.Android\obj\Debug\81\res.flag
 D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.Android\obj\Debug\81\A2J.Android.csproj.CoreCompileInputs.cache
 D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.Android\obj\Debug\81\XamlC.stamp
 D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.Android\obj\Debug\81\A2J.Android.csproj.CopyComplete
@@ -103,4 +103,6 @@ D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.Android\obj\Debug\81\android\assets\System.Xml
 D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
+D:\Git\Repos\A2J-Pro-Bono\A2J\A2J\bin\Debug\netstandard2.0\A2J.dll
+D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.Android\bin\Debug\A2J.dll.mdb
 D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.Android\obj\Debug\81\linksrc\A2J.dll.mdb

@@ -32,3 +32,19 @@ C:\Users\lawre\OneDrive - The University of Nottingham\#Uni\2nd Year\A2J-Pro-Bon
 C:\Users\lawre\OneDrive - The University of Nottingham\#Uni\2nd Year\A2J-Pro-Bono\A2J\A2J\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\lawre\OneDrive - The University of Nottingham\#Uni\2nd Year\A2J-Pro-Bono\A2J\A2J\obj\Debug\netstandard2.0\A2J.dll
 C:\Users\lawre\OneDrive - The University of Nottingham\#Uni\2nd Year\A2J-Pro-Bono\A2J\A2J\obj\Debug\netstandard2.0\A2J.pdb
+C:\Users\lawre\Documents\A2J-Pro-Bono\A2J\A2J\bin\Debug\netstandard2.0\A2J.deps.json
+C:\Users\lawre\Documents\A2J-Pro-Bono\A2J\A2J\bin\Debug\netstandard2.0\A2J.dll
+C:\Users\lawre\Documents\A2J-Pro-Bono\A2J\A2J\bin\Debug\netstandard2.0\A2J.pdb
+C:\Users\lawre\Documents\A2J-Pro-Bono\A2J\A2J\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\lawre\Documents\A2J-Pro-Bono\A2J\A2J\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\lawre\Documents\A2J-Pro-Bono\A2J\A2J\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\lawre\Documents\A2J-Pro-Bono\A2J\A2J\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\lawre\Documents\A2J-Pro-Bono\A2J\A2J\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\lawre\Documents\A2J-Pro-Bono\A2J\A2J\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\lawre\Documents\A2J-Pro-Bono\A2J\A2J\obj\Debug\netstandard2.0\Views\RightsPage.xaml.g.cs
+C:\Users\lawre\Documents\A2J-Pro-Bono\A2J\A2J\obj\Debug\netstandard2.0\A2J.csproj.CoreCompileInputs.cache
+C:\Users\lawre\Documents\A2J-Pro-Bono\A2J\A2J\obj\Debug\netstandard2.0\A2J.AssemblyInfoInputs.cache
+C:\Users\lawre\Documents\A2J-Pro-Bono\A2J\A2J\obj\Debug\netstandard2.0\A2J.AssemblyInfo.cs
+C:\Users\lawre\Documents\A2J-Pro-Bono\A2J\A2J\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\lawre\Documents\A2J-Pro-Bono\A2J\A2J\obj\Debug\netstandard2.0\A2J.dll
+C:\Users\lawre\Documents\A2J-Pro-Bono\A2J\A2J\obj\Debug\netstandard2.0\A2J.pdb

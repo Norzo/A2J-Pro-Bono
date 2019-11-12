@@ -1386,20 +1386,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bkfyt\\.nuget\\packages\\": {}
+    "C:\\Users\\lawre\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Git\\Repos\\A2J-Pro-Bono\\A2J\\A2J.Android\\A2J.Android.csproj",
+      "projectUniqueName": "C:\\Users\\lawre\\OneDrive - The University of Nottingham\\#Uni\\2nd Year\\A2J-Pro-Bono\\A2J\\A2J.Android\\A2J.Android.csproj",
       "projectName": "A2J.Android",
-      "projectPath": "D:\\Git\\Repos\\A2J-Pro-Bono\\A2J\\A2J.Android\\A2J.Android.csproj",
-      "packagesPath": "C:\\Users\\bkfyt\\.nuget\\packages\\",
-      "outputPath": "D:\\Git\\Repos\\A2J-Pro-Bono\\A2J\\A2J.Android\\obj\\",
+      "projectPath": "C:\\Users\\lawre\\OneDrive - The University of Nottingham\\#Uni\\2nd Year\\A2J-Pro-Bono\\A2J\\A2J.Android\\A2J.Android.csproj",
+      "packagesPath": "C:\\Users\\lawre\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lawre\\OneDrive - The University of Nottingham\\#Uni\\2nd Year\\A2J-Pro-Bono\\A2J\\A2J.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\bkfyt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\lawre\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1412,8 +1412,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "D:\\Git\\Repos\\A2J-Pro-Bono\\A2J\\A2J\\A2J.csproj": {
-              "projectPath": "D:\\Git\\Repos\\A2J-Pro-Bono\\A2J\\A2J\\A2J.csproj"
+            "C:\\Users\\lawre\\OneDrive - The University of Nottingham\\#Uni\\2nd Year\\A2J-Pro-Bono\\A2J\\A2J\\A2J.csproj": {
+              "projectPath": "C:\\Users\\lawre\\OneDrive - The University of Nottingham\\#Uni\\2nd Year\\A2J-Pro-Bono\\A2J\\A2J\\A2J.csproj"
             }
           }
         }

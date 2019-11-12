@@ -103,4 +103,7 @@ D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.Android\obj\Debug\81\android\assets\System.Xml
 D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
-D:\Git\Repos\A2J-Pro-Bono\A2J\A2J.Android\obj\Debug\81\linksrc\A2J.dll.mdb
+C:\Users\lawre\OneDrive - The University of Nottingham\#Uni\2nd Year\A2J-Pro-Bono\A2J\A2J.Android\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
+C:\Users\lawre\OneDrive - The University of Nottingham\#Uni\2nd Year\A2J-Pro-Bono\A2J\A2J.Android\obj\Debug\81\A2J.Android.csprojAssemblyReference.cache
+C:\Users\lawre\OneDrive - The University of Nottingham\#Uni\2nd Year\A2J-Pro-Bono\A2J\A2J.Android\obj\Debug\81\A2J.Android.dll
+C:\Users\lawre\OneDrive - The University of Nottingham\#Uni\2nd Year\A2J-Pro-Bono\A2J\A2J.Android\obj\Debug\81\A2J.Android.pdb

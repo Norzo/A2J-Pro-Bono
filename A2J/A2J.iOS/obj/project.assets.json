@@ -1143,11 +1143,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lawre\\OneDrive - The University of Nottingham\\#Uni\\2nd Year\\A2J-Pro-Bono\\A2J\\A2J.iOS\\A2J.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\lawre\\Documents\\A2J-Pro-Bono\\A2J\\A2J.iOS\\A2J.iOS.csproj",
       "projectName": "A2J.iOS",
-      "projectPath": "C:\\Users\\lawre\\OneDrive - The University of Nottingham\\#Uni\\2nd Year\\A2J-Pro-Bono\\A2J\\A2J.iOS\\A2J.iOS.csproj",
+      "projectPath": "C:\\Users\\lawre\\Documents\\A2J-Pro-Bono\\A2J\\A2J.iOS\\A2J.iOS.csproj",
       "packagesPath": "C:\\Users\\lawre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lawre\\OneDrive - The University of Nottingham\\#Uni\\2nd Year\\A2J-Pro-Bono\\A2J\\A2J.iOS\\obj\\",
+      "outputPath": "C:\\Users\\lawre\\Documents\\A2J-Pro-Bono\\A2J\\A2J.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1164,8 +1164,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\lawre\\OneDrive - The University of Nottingham\\#Uni\\2nd Year\\A2J-Pro-Bono\\A2J\\A2J\\A2J.csproj": {
-              "projectPath": "C:\\Users\\lawre\\OneDrive - The University of Nottingham\\#Uni\\2nd Year\\A2J-Pro-Bono\\A2J\\A2J\\A2J.csproj"
+            "C:\\Users\\lawre\\Documents\\A2J-Pro-Bono\\A2J\\A2J\\A2J.csproj": {
+              "projectPath": "C:\\Users\\lawre\\Documents\\A2J-Pro-Bono\\A2J\\A2J\\A2J.csproj"
             }
           }
         }

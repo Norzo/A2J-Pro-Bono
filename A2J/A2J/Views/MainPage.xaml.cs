@@ -17,5 +17,11 @@ namespace A2J.Views
         {
             await Navigation.PushAsync(new RightsPage());
         }
+
+        private async void NavigateToMovingOut_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MovingOut());
+        }
+
     }
 }

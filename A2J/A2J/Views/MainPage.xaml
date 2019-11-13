@@ -15,7 +15,7 @@
         <Label Text="A2J" FontSize="Medium" Grid.Row="0" Grid.Column="2" ></Label>
         <Button Text="1" BackgroundColor="Red" Clicked="NavigateToRights_Clicked" WidthRequest="200" HeightRequest="25" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="1" CornerRadius="100" Grid.RowSpan="1"></Button>
         <Button Text="2" BackgroundColor="Green" Clicked="NavigateToRights_Clicked" WidthRequest="200" HeightRequest="50" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="5" CornerRadius="3"></Button>
-        <Button Text="3" BackgroundColor="Black" Clicked="NavigateToRights_Clicked" WidthRequest="200" HeightRequest="50" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="5" CornerRadius="3"></Button>
+        <Button Text="Moving Out" BackgroundColor="Blue" Clicked="NavigateToMovingOut_Clicked" WidthRequest="200" HeightRequest="50" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="5" CornerRadius="3"></Button>
         <Button Text="4" BackgroundColor="Magenta" Clicked="NavigateToRights_Clicked" WidthRequest="250" HeightRequest="50" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="5" CornerRadius="3"></Button>
         <Button Text="5" BackgroundColor="Purple" Clicked="NavigateToRights_Clicked" WidthRequest="275" HeightRequest="50" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="5" CornerRadius="3"></Button>
         <Button Text="1.2" BackgroundColor="Azure" Clicked="NavigateToRights_Clicked" WidthRequest="50" HeightRequest="50" Grid.Row="6" Grid.Column="0" CornerRadius="100"></Button>

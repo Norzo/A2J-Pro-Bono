@@ -100,7 +100,6 @@ C:\Users\lawre\Documents\A2J-Pro-Bono\A2J\A2J.iOS\bin\iPhoneSimulator\Debug\zh-H
 C:\Users\lawre\Documents\A2J-Pro-Bono\A2J\A2J.iOS\bin\iPhoneSimulator\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
 C:\Users\lawre\Documents\A2J-Pro-Bono\A2J\A2J.iOS\bin\iPhoneSimulator\Debug\A2J.dll
 C:\Users\lawre\Documents\A2J-Pro-Bono\A2J\A2J.iOS\bin\iPhoneSimulator\Debug\A2J.pdb
-C:\Users\lawre\Documents\A2J-Pro-Bono\A2J\A2J.iOS\bin\iPhoneSimulator\Debug\A2J.dll.mdb
 C:\Users\lawre\Documents\A2J-Pro-Bono\A2J\A2J.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
 C:\Users\lawre\Documents\A2J-Pro-Bono\A2J\A2J.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
 C:\Users\lawre\Documents\A2J-Pro-Bono\A2J\A2J.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items

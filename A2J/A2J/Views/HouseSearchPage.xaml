@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="A2J.Views.HouseSearchPage">
+    <ContentPage>
+        <ContentPage.Padding>
+            <OnPlatform x:TypeArguments="Thickness">
+                <On Platform="iOs, Android" Value="0,40,0,0"/>
+            </OnPlatform>
+        </ContentPage.Padding>
+        <RelativeLayout>
+            <Label Text="House Searching"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <ImageButton HeightRequest="550" WidthRequest="375" Source="HouseExample" Margin="20" HorizontalOptions="Start" VerticalOptions="Start" Aspect="Fill" />
+        </RelativeLayout>
+    </ContentPage>
+    <ContentPage>
+        <ImageButton Source="BigPlus" HeightRequest="550" WidthRequest="375" Margin="20" HorizontalOptions="Start" VerticalOptions="Start" Aspect="Fill" Clicked="ImageButton_Clicked" />
+    </ContentPage>
+    <ContentPage>
+        <Button >
+            
+        </Button>
+    </ContentPage>
+</CarouselPage>

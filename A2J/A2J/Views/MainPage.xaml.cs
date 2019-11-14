@@ -13,9 +13,14 @@ namespace A2J.Views
             InitializeComponent();
         }
 
-        private async void NavigateToRights_Clicked(object sender, EventArgs e)
+        private async void NavigateToRights_Clicked(object sender, EventArgs e) // Intialise the Rights Page
         {
             await Navigation.PushAsync(new RightsPage());
+        }
+
+        private async void NavigateToHouseSearch (object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new HouseSearchPage());
         }
     }
 }

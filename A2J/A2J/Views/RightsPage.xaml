@@ -7,9 +7,6 @@
             <Label Text="Welcome to Xamarin.Forms!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-            <Button Text="Main Page" BackgroundColor="Blue" Clicked="BackToMainPage_RightsPageClicked">
-             
-            </Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

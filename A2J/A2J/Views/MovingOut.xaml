@@ -34,8 +34,9 @@
                 <Label FontSize="Subtitle" Text="Moving Out" Grid.Row="1" Grid.Column="0" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand"/>
             </Grid>
 
-            <Grid Padding="10" Grid.Row="1" Grid.Column="0">    <!--This is the second grid for text boxes-->
+            <Grid Padding="10" Grid.Row="1" Grid.Column="0" BackgroundColor="Green">    <!--This is the second grid for text boxes-->
                 <Grid.RowDefinitions>
+                    
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
@@ -45,27 +46,27 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <BoxView Color="AliceBlue" Grid.Row="0" Grid.Column="0"/>
-                <BoxView Color="BlueViolet" Grid.Row="0" Grid.Column="1"/>
-                <BoxView Color="CadetBlue" Grid.Row="1" Grid.Column="0"/>
-                <BoxView Color="DarkBlue" Grid.Row="1" Grid.Column="1"/>
-                <BoxView Color="DodgerBlue" Grid.Row="2" Grid.Column="0"/>
-                <BoxView Color="LightSkyBlue" Grid.Row="2" Grid.Column="1"/>
+                <Label BackgroundColor="Black" Grid.Row="0" Grid.Column="0"/>
+                <Label BackgroundColor="Black" Grid.Row="0" Grid.Column="1"/>
+                <Label BackgroundColor="Black" Grid.Row="1" Grid.Column="0"/>
+                <Label BackgroundColor="Black" Grid.Row="1" Grid.Column="1"/>
+                <Label BackgroundColor="Black" Grid.Row="2" Grid.Column="0"/>
+                <Label BackgroundColor="Black" Grid.Row="2" Grid.Column="1"/>
             </Grid>
 
-            <Grid Padding="10" Grid.Row="2" Grid.Column="0">  <!--This is the third grid for bottom buttons-->
+            <Grid Padding="5" Grid.Row="2" Grid.Column="0">  <!--This is the third grid for bottom buttons-->
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="1*"/>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
                 </Grid.ColumnDefinitions>
 
-                <BoxView Color="LawnGreen" Grid.Row="0" Grid.Column="0"/>
-                <BoxView Color="LightGreen" Grid.Row="0" Grid.Column="1"/>
-                <BoxView Color="LimeGreen" Grid.Row="0" Grid.Column="2"/>
+                <Button BorderWidth="1" BorderColor="Black" Grid.Row="0" Grid.Column="0" Text="EXAMPLE"/>
+                <Button BorderWidth="1" BorderColor="Black" Grid.Row="0" Grid.Column="1" Text="EXAMPLE"/>
+                <Button BorderWidth="1" BorderColor="Black" Grid.Row="0" Grid.Column="2" Text="EXAMPLE"/>
             </Grid>
 
         </Grid>

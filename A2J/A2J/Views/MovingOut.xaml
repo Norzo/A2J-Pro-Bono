@@ -4,7 +4,7 @@
              x:Class="A2J.Views.MovingOut">
     
     <ContentPage.Content>
-        <Grid Padding="10"> <!--This is the definition for the master grid-->
+        <Grid Padding="5"> <!--This is the definition for the master grid-->
             <Grid.RowDefinitions>
                 <RowDefinition Height="1*"/>
                 <RowDefinition Height="8*"/>
@@ -18,12 +18,13 @@
             <BoxView Color="Blue" Grid.Row="1" Grid.Column="0"/>
             <BoxView Color="Green" Grid.Row="2" Grid.Column="0"/>
 
-            <Grid Padding="10" Grid.Row="0" Grid.Column="0" HorizontalOptions="CenterAndExpand">    <!--This is the first grid for title labels-->
+            <Grid Padding="10" Grid.Row="0" Grid.Column="0">    <!--This is the first grid for title labels-->
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="2"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="1"/>
+                    <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 
                 <!--Labels for titles!-->
@@ -35,25 +36,38 @@
 
             <Grid Padding="10" Grid.Row="1" Grid.Column="0">    <!--This is the second grid for text boxes-->
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="3"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="2"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <Label Text="5" BackgroundColor="Purple"/>
+                <BoxView Color="AliceBlue" Grid.Row="0" Grid.Column="0"/>
+                <BoxView Color="BlueViolet" Grid.Row="0" Grid.Column="1"/>
+                <BoxView Color="CadetBlue" Grid.Row="1" Grid.Column="0"/>
+                <BoxView Color="DarkBlue" Grid.Row="1" Grid.Column="1"/>
+                <BoxView Color="DodgerBlue" Grid.Row="2" Grid.Column="0"/>
+                <BoxView Color="LightSkyBlue" Grid.Row="2" Grid.Column="1"/>
             </Grid>
 
             <Grid Padding="10" Grid.Row="2" Grid.Column="0">  <!--This is the third grid for bottom buttons-->
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="1"/>
+                    <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="3"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
+                <BoxView Color="LawnGreen" Grid.Row="0" Grid.Column="0"/>
+                <BoxView Color="LightGreen" Grid.Row="0" Grid.Column="1"/>
+                <BoxView Color="LimeGreen" Grid.Row="0" Grid.Column="2"/>
             </Grid>
 
-            </Grid>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>        

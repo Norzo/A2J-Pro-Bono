@@ -112,3 +112,4 @@ C:\Users\lawre\Documents\A2J-Pro-Bono\A2J\A2J.iOS\obj\iPhoneSimulator\Debug\Xaml
 C:\Users\lawre\Documents\A2J-Pro-Bono\A2J\A2J.iOS\obj\iPhoneSimulator\Debug\A2J.iOS.csproj.CopyComplete
 C:\Users\lawre\Documents\A2J-Pro-Bono\A2J\A2J.iOS\obj\iPhoneSimulator\Debug\A2J.iOS.exe
 C:\Users\lawre\Documents\A2J-Pro-Bono\A2J\A2J.iOS\obj\iPhoneSimulator\Debug\A2J.iOS.pdb
+C:\Users\lawre\Documents\A2J-Pro-Bono\A2J\A2J.iOS\bin\iPhoneSimulator\Debug\A2J.dll.mdb

@@ -2,16 +2,23 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="A2J.Views.MovingOut">
+    
     <ContentPage.Content>
         <Grid Padding="10"> <!--This is the definition for the master grid-->
             <Grid.RowDefinitions>
-                <RowDefinition Height="3"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="8*"/>
+                <RowDefinition Height="1*"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="1"/>
+                <ColumnDefinition Width="1*"/>
             </Grid.ColumnDefinitions>
 
-            <Grid Padding="10" Grid.Row="1" Grid.Column="1">    <!--This is the first grid for title labels-->
+            <BoxView Color="Red" Grid.Row="0" Grid.Column="0"/>
+            <BoxView Color="Blue" Grid.Row="1" Grid.Column="0"/>
+            <BoxView Color="Green" Grid.Row="2" Grid.Column="0"/>
+
+            <Grid Padding="10" Grid.Row="0" Grid.Column="0" HorizontalOptions="CenterAndExpand">    <!--This is the first grid for title labels-->
                 <Grid.RowDefinitions>
                     <RowDefinition Height="2"/>
                 </Grid.RowDefinitions>
@@ -20,11 +27,13 @@
                 </Grid.ColumnDefinitions>
                 
                 <!--Labels for titles!-->
-                <Label FontSize="Title" Grid.Row="1" Grid.Column="1" Text="A2J" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand"/>
-                <Label FontSize="Subtitle" Grid.Row="2" Grid.Column="1" Text="Moving Out" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand"/>
+                <BoxView Color="Pink" Grid.Row="0" Grid.Column="0"/>
+                <BoxView Color="Coral" Grid.Row="1" Grid.Column="0"/>
+                <Label FontSize="Title" Text="A2J" Grid.Row="0" Grid.Column="0" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand"/>
+                <Label FontSize="Subtitle" Text="Moving Out" Grid.Row="1" Grid.Column="0" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand"/>
             </Grid>
 
-            <Grid Padding="10" Grid.Row="2" Grid.Column="1">    <!--This is the second grid for text boxes-->
+            <Grid Padding="10" Grid.Row="1" Grid.Column="0">    <!--This is the second grid for text boxes-->
                 <Grid.RowDefinitions>
                     <RowDefinition Height="3"/>
                 </Grid.RowDefinitions>
@@ -32,10 +41,10 @@
                     <ColumnDefinition Width="2"/>
                 </Grid.ColumnDefinitions>
 
-                <T Text="5" BackgroundColor="Purple"/>
+                <Label Text="5" BackgroundColor="Purple"/>
             </Grid>
 
-            <Grid Padding="10" Grid.Row="3" Grid.Column="1">  <!--This is the third grid for bottom buttons-->
+            <Grid Padding="10" Grid.Row="2" Grid.Column="0">  <!--This is the third grid for bottom buttons-->
                 <Grid.RowDefinitions>
                     <RowDefinition Height="1"/>
                 </Grid.RowDefinitions>

@@ -15,15 +15,15 @@
                         <RowDefinition Height="Auto"/>
                     </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="4*"/>
+                        <ColumnDefinition Width="6*"/>
                     </Grid.ColumnDefinitions>
 
 
                     <Label BackgroundColor="Black" Grid.Row="0" Grid.Column="0"/>
 
                     <Label BackgroundColor="White" Grid.Row="0" Grid.Column="0" Scale="0.99" Text="You can see here that the text works excellently."/>
-                    <Grid Grid.Row="0" Grid.Column="1" Scale="0.99">    <!--This sub grid goes on the right hand side-->
+                    <Grid Grid.Row="0" Grid.Column="1" Scale="0.99">    <!--This sub-grid goes on the right hand side-->
                         <Grid.RowDefinitions>
                             <RowDefinition Height="Auto"/>
                             <RowDefinition Height="Auto"/>
@@ -36,12 +36,12 @@
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
 
-                        <Label BackgroundColor="White" Grid.Row="0" Grid.Column="0" Text="What are you looking for?"/>
-                        <Label BackgroundColor="White" Grid.Row="1" Grid.Column="0" Text="- Application Fees"/>
-                        <Label BackgroundColor="White" Grid.Row="2" Grid.Column="0" Text="- Agent Fees"/>
-                        <Label BackgroundColor="White" Grid.Row="3" Grid.Column="0" Text="- Council Tax"/>
-                        <Label BackgroundColor="White" Grid.Row="4" Grid.Column="0" Text="- Car Permits"/>
-                        <Label BackgroundColor="White" Grid.Row="5" Grid.Column="0" Text="- Insurance"/>
+                        <Label BackgroundColor="White" Grid.Row="0" Grid.Column="0" FontSize="20" Text="What are you looking for?"/>
+                        <Label BackgroundColor="White" Grid.Row="1" Grid.Column="0" FontSize="16" Text="- Application Fees"/>
+                        <Label BackgroundColor="White" Grid.Row="2" Grid.Column="0" FontSize="16" Text="- Agent Fees"/>
+                        <Label BackgroundColor="White" Grid.Row="3" Grid.Column="0" FontSize="16" Text="- Council Tax"/>
+                        <Label BackgroundColor="White" Grid.Row="4" Grid.Column="0" FontSize="16" Text="- Car Permits"/>
+                        <Label BackgroundColor="White" Grid.Row="5" Grid.Column="0" FontSize="16" Text="- Insurance"/>
 
                     </Grid>
 
@@ -59,6 +59,7 @@
 
                     <Label BackgroundColor="Black" Grid.Row="0" Grid.Column="0"/>
                     <Label BackgroundColor="White" Grid.Row="0" Grid.Column="0" Scale="0.99" FontSize="22"  Text="Application Fees"/>
+                    <!--Each paragram needs to go in it's own label, which may mean... nested grids!-->
                     <Label BackgroundColor="Black" Grid.Row="1" Grid.Column="0"/>
                     <Label BackgroundColor="White" Grid.Row="1" Grid.Column="0" Scale="0.99" FontSize="16"
                            Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget placerat libero, 
@@ -82,6 +83,7 @@
 
                     <Label BackgroundColor="Black" Grid.Row="0" Grid.Column="0"/>
                     <Label BackgroundColor="White" Grid.Row="0" Grid.Column="0" Scale="0.99" FontSize="22"  Text="Agent Fees"/>
+                    <!--Each paragram needs to go in it's own label, which may mean... nested grids!-->
                     <Label BackgroundColor="Black" Grid.Row="1" Grid.Column="0"/>
                     <Label BackgroundColor="White" Grid.Row="1" Grid.Column="0" Scale="0.99" FontSize="16"
                            Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget placerat libero, 
@@ -105,6 +107,7 @@
 
                     <Label BackgroundColor="Black" Grid.Row="0" Grid.Column="0"/>
                     <Label BackgroundColor="White" Grid.Row="0" Grid.Column="0" Scale="0.99" FontSize="22"  Text="Council Tax"/>
+                    <!--Each paragram needs to go in it's own label, which may mean... nested grids!-->
                     <Label BackgroundColor="Black" Grid.Row="1" Grid.Column="0"/>
                     <Label BackgroundColor="White" Grid.Row="1" Grid.Column="0" Scale="0.99" FontSize="16"
                            Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget placerat libero, 
@@ -128,6 +131,7 @@
 
                     <Label BackgroundColor="Black" Grid.Row="0" Grid.Column="0"/>
                     <Label BackgroundColor="White" Grid.Row="0" Grid.Column="0" Scale="0.99" FontSize="22"  Text="Car Permits"/>
+                    <!--Each paragram needs to go in it's own label, which may mean... nested grids!-->
                     <Label BackgroundColor="Black" Grid.Row="1" Grid.Column="0"/>
                     <Label BackgroundColor="White" Grid.Row="1" Grid.Column="0" Scale="0.99" FontSize="16"
                            Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget placerat libero, 
@@ -149,8 +153,10 @@
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
 
+                    
                     <Label BackgroundColor="Black" Grid.Row="0" Grid.Column="0"/>
                     <Label BackgroundColor="White" Grid.Row="0" Grid.Column="0" Scale="0.99" FontSize="22"  Text="Insurance"/>
+                    <!--Each paragram needs to go in it's own label, which may mean... nested grids!-->
                     <Label BackgroundColor="Black" Grid.Row="1" Grid.Column="0"/>
                     <Label BackgroundColor="White"  Grid.Row="1" Grid.Column="0" Scale="0.99" FontSize="16"
                            Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget placerat libero, 

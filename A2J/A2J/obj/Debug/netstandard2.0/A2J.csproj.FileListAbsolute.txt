@@ -49,4 +49,5 @@ C:\Users\lawre\Documents\A2J-Pro-Bono\A2J\A2J\obj\Debug\netstandard2.0\XamlC.sta
 C:\Users\lawre\Documents\A2J-Pro-Bono\A2J\A2J\obj\Debug\netstandard2.0\A2J.dll
 C:\Users\lawre\Documents\A2J-Pro-Bono\A2J\A2J\obj\Debug\netstandard2.0\A2J.pdb
 C:\Users\lawre\Documents\A2J-Pro-Bono\A2J\A2J\obj\Debug\netstandard2.0\Views\MovingOut.xaml.g.cs
+C:\Users\lawre\Documents\A2J-Pro-Bono\A2J\A2J\obj\Debug\netstandard2.0\Views\payments.xaml.g.cs
 C:\Users\lawre\Documents\A2J-Pro-Bono\A2J\A2J\obj\Debug\netstandard2.0\A2J.csprojAssemblyReference.cache

@@ -14,7 +14,7 @@ namespace A2J.Views
 	{
 		public MovingOut ()
 		{
-			InitializeComponent ();
+			InitializeComponent();
 		}
 	}
 }

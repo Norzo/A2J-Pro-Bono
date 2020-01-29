@@ -19,8 +19,8 @@ namespace A2J.Views
 
             Item = new Item
             {
-                Text = "Address",
-                Description = "Write the weekly price here."
+                Text = "Item name",
+                Description = "This is an item description."
             };
 
             BindingContext = this;

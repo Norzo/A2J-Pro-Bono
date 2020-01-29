@@ -14,7 +14,7 @@ namespace A2J.Views {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\HouseSearchPage.xaml")]
-    public partial class HouseSearchPage : global::Xamarin.Forms.ContentPage {
+    public partial class HouseSearchPage : global::Xamarin.Forms.CarouselPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {

@@ -14,5 +14,5 @@ D:\Git\Repos\A2J-Pro-Bono\A2J\A2J\obj\Debug\netstandard2.0\A2J.AssemblyInfo.cs
 D:\Git\Repos\A2J-Pro-Bono\A2J\A2J\obj\Debug\netstandard2.0\XamlC.stamp
 D:\Git\Repos\A2J-Pro-Bono\A2J\A2J\obj\Debug\netstandard2.0\A2J.dll
 D:\Git\Repos\A2J-Pro-Bono\A2J\A2J\obj\Debug\netstandard2.0\A2J.pdb
-D:\Git\Repos\A2J-Pro-Bono\A2J\A2J\obj\Debug\netstandard2.0\Views\HouseSearchPage.xaml.g.cs
 D:\Git\Repos\A2J-Pro-Bono\A2J\A2J\obj\Debug\netstandard2.0\A2J.csprojAssemblyReference.cache
+D:\Git\Repos\A2J-Pro-Bono\A2J\A2J\obj\Debug\netstandard2.0\Views\HouseSearchPage.xaml.g.cs

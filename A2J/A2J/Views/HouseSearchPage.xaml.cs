@@ -12,14 +12,11 @@ namespace A2J.Views
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class HouseSearchPage : CarouselPage
 	{
-        Image houseImage = new Image { Source = "HouseExample.jpg" };
-        
-        public HouseSearchPage ()
+		public HouseSearchPage ()
 		{
 			InitializeComponent ();
-
 		}
-        // Function for sending to NewItemPage when clicking the big plus image
+
         async void ImageButton_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushModalAsync(new NavigationPage(new NewItemPage()));

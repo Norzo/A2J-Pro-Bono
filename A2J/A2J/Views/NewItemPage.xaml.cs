@@ -11,16 +11,18 @@ namespace A2J.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class NewItemPage : ContentPage
     {
-        public Item Item { get; set; }
+
+        public HouseEntry houseEntry { get; set; }
 
         public NewItemPage()
         {
             InitializeComponent();
 
-            Item = new Item
+            houseEntry = new HouseEntry
             {
-                Text = "Item name",
-                Description = "This is an item description."
+                houseAddress = "Enter the address",
+                houseBedrooms = 0,
+                houseRent = 0
             };
 
             BindingContext = this;
@@ -28,7 +30,7 @@ namespace A2J.Views
 
         async void Save_Clicked(object sender, EventArgs e)
         {
-            MessagingCenter.Send(this, "AddItem", Item);
+            MessagingCenter.Send(this, "AddHouse", houseEntry);
             await Navigation.PopModalAsync();
         }
     }

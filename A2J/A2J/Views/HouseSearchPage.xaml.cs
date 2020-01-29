@@ -6,18 +6,22 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using A2J.Models;
 
 namespace A2J.Views
-{
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class HouseSearchPage : CarouselPage
+{ 
+
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+	public partial class HouseSearchPage : ContentPage
 	{
-		public HouseSearchPage ()
+
+        public HouseSearchPage ()
 		{
 			InitializeComponent ();
+
 		}
 
-        async void ImageButton_Clicked(object sender, EventArgs e)
+        async void AddHouse(object sender, EventArgs e)
         {
             await Navigation.PushModalAsync(new NavigationPage(new NewItemPage()));
         }

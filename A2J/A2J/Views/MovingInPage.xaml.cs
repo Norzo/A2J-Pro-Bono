@@ -10,10 +10,16 @@ using Xamarin.Forms.Xaml;
 namespace A2J.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class MovingIn : ContentPage
+    public partial class MovingInPage : ContentPage
     {
-        public MovingIn()
+        public MovingInPage()
         {
+            InitializeComponent();
+        }
+
+        async void NavToChecklist(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MovingInChecklist());
 
         }
     }

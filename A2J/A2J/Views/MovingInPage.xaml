@@ -17,10 +17,6 @@
                 <ColumnDefinition Width="1*"/>
             </Grid.ColumnDefinitions>
 
-            <BoxView Color="Red" Grid.Row="0" Grid.Column="0"/>
-            <BoxView Color="Blue" Grid.Row="1" Grid.Column="0"/>
-            <BoxView Color="Green" Grid.Row="2" Grid.Column="0"/>
-
             <Grid Padding="10" Grid.Row="0" Grid.Column="0">
                 <!--This is the first grid for title labels-->
                 <Grid.RowDefinitions>
@@ -32,15 +28,14 @@
                 </Grid.ColumnDefinitions>
 
                 <!--Labels for titles!-->
-                <BoxView Color="Pink" Grid.Row="0" Grid.Column="0"/>
-                <BoxView Color="Coral" Grid.Row="1" Grid.Column="0"/>
-                <Label FontSize="Title" Text="A2J" Grid.Row="0" Grid.Column="0" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand"/>
-                <Label FontSize="Subtitle" Text="Moving Out" Grid.Row="1" Grid.Column="0" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="A2J"        Grid.Row="0" Grid.Column="0" FontFamily="Verdana" FontSize="Title"    VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="Moving Out" Grid.Row="1" Grid.Column="0" FontFamily="Verdana" FontSize="Subtitle" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand"/>
             </Grid>
 
             <Grid Padding="10" Grid.Row="1" Grid.Column="0">
                 <!--This is the second grid for text boxes-->
                 <Grid.RowDefinitions>
+
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
@@ -50,30 +45,34 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <BoxView Color="AliceBlue" Grid.Row="0" Grid.Column="0"/>
-                <BoxView Color="BlueViolet" Grid.Row="0" Grid.Column="1"/>
-                <BoxView Color="CadetBlue" Grid.Row="1" Grid.Column="0"/>
-                <BoxView Color="DarkBlue" Grid.Row="1" Grid.Column="1"/>
-                <BoxView Color="DodgerBlue" Grid.Row="2" Grid.Column="0"/>
-                <BoxView Color="LightSkyBlue" Grid.Row="2" Grid.Column="1"/>
+                <Label />
+
+                <!--Black squares at the back with a scale of 1.0. White squares at the front with a scale of 0.99 create a border effect-->
+                <!--Label BackgroundColor="Black" Grid.Row="0" Grid.Column="0"/  For "borders" on labels -->
+                <Label BackgroundColor="#C424BA" TextColor="White" Margin="3" Grid.Row="0" Grid.Column="0" Scale="0.99" Text="You can see here that the text works excellently."/>
+                <Button BackgroundColor="#C424BA" Clicked="NavToChecklist" TextColor="White" Margin="3" Grid.Row="0" Grid.Column="1" Scale="0.99" Text="You can see here that the text works excellently."/>
+                <Label BackgroundColor="#C424BA" TextColor="White" Margin="3" Grid.Row="1" Grid.Column="0" Scale="0.99" Text="You can see here that the text works excellently."/>
+                <Label BackgroundColor="#C424BA" TextColor="White" Margin="3" Grid.Row="1" Grid.Column="1" Scale="0.99" Text="You can see here that the text works excellently."/>
+                <Label BackgroundColor="#C424BA" TextColor="White" Margin="3" Grid.Row="2" Grid.Column="0" Scale="0.99" Text="You can see here that the text works excellently."/>
+                <Label BackgroundColor="#C424BA" TextColor="White" Margin="3" Grid.Row="2" Grid.Column="1" Scale="0.99" Text="You can see here that the text works excellently."/>
             </Grid>
 
-            <Grid Padding="10" Grid.Row="2" Grid.Column="0">
+            <Grid Padding="5" Grid.Row="2" Grid.Column="0">
                 <!--This is the third grid for bottom buttons-->
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="1*"/>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
                 </Grid.ColumnDefinitions>
 
-                <BoxView Color="LawnGreen" Grid.Row="0" Grid.Column="0"/>
-                <BoxView Color="LightGreen" Grid.Row="0" Grid.Column="1"/>
-                <BoxView Color="LimeGreen" Grid.Row="0" Grid.Column="2"/>
+                <Button BorderWidth="1" TextColor="White" BackgroundColor="#C424BA" BorderColor="Black" Grid.Row="0" Grid.Column="0" Text="EXAMPLE"/>
+                <Button BorderWidth="1" TextColor="White" BackgroundColor="#C424BA" BorderColor="Black" Grid.Row="0" Grid.Column="1" Text="EXAMPLE"/>
+                <Button BorderWidth="1" TextColor="White" BackgroundColor="#C424BA" BorderColor="Black" Grid.Row="0" Grid.Column="2" Text="EXAMPLE"/>
             </Grid>
 
         </Grid>
     </ContentPage.Content>
-</ContentPage>
+</ContentPage>   

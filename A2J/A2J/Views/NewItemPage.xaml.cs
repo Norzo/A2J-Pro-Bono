@@ -5,6 +5,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 using A2J.Models;
+using A2J.Data;
 
 namespace A2J.Views
 {
@@ -30,8 +31,7 @@ namespace A2J.Views
 
         async void Save_Clicked(object sender, EventArgs e)
         {
-            MessagingCenter.Send(this, "AddHouse", houseEntry);
-
+            await HouseDatabase.saveHouseAsync(houseEntry);
             await Navigation.PopAsync();
         }
     }

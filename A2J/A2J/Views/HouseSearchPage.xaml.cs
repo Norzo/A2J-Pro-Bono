@@ -14,8 +14,6 @@ namespace A2J.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class HouseSearchPage : ContentPage
 	{
-        String[] buttonList = new String[6] {"but1", "but2", "but3", "but4", "but5", "but6"}; // Array used to indicate when boxes are "used up" or not.
-
 
         public HouseSearchPage ()
 		{
@@ -24,15 +22,11 @@ namespace A2J.Views
 
         async void AddHouse(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new NavigationPage(new NewItemPage()));
-            Button button = sender as Button;
-            
-            button.Text = "House Saved";
+            await Navigation.PushAsync(new NewItemPage());
         }
 
         async void DirectToEntry(object sender, EventArgs e)
         {
-            
         }
     }
 }

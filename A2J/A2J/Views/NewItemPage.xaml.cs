@@ -31,7 +31,8 @@ namespace A2J.Views
         async void Save_Clicked(object sender, EventArgs e)
         {
             MessagingCenter.Send(this, "AddHouse", houseEntry);
-            await Navigation.PopModalAsync();
+
+            await Navigation.PopAsync();
         }
     }
 }

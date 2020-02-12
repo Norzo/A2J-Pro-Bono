@@ -32,7 +32,7 @@
                 <Label FontSize="Subtitle" Text="Moving Out" Grid.Row="1" Grid.Column="0" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand"/>
             </Grid>
 
-            <Grid Padding="10" Grid.Row="1" Grid.Column="0">
+            <Grid Padding="10" Grid.Row="1" Grid.Column="0" x:Name="buttonGrid">
                 <!--This is the second grid for text boxes-->
                 <Grid.RowDefinitions>
 

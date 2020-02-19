@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="#FFD9F8"
+             x:Class="A2J.Views.MovingOut">
+    
+    <ContentPage.Content>
+        <Grid Padding="5"> <!--This is the definition for the master grid-->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="8*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid Padding="10" Grid.Row="0" Grid.Column="0">    <!--This is the first grid for title labels-->
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                
+                <!--Labels for titles!-->
+                <Label Text="A2J"        Grid.Row="0" Grid.Column="0" FontFamily="Verdana" FontSize="Title"    VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="Moving Out" Grid.Row="1" Grid.Column="0" FontFamily="Verdana" FontSize="Subtitle" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand"/>
+            </Grid>
+
+            <Grid Padding="10" Grid.Row="1" Grid.Column="0">    <!--This is the second grid for text boxes-->
+                <Grid.RowDefinitions>
+
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label />
+
+                <!--Black squares at the back with a scale of 1.0. White squares at the front with a scale of 0.99 create a border effect-->
+                <!--Label BackgroundColor="Black" Grid.Row="0" Grid.Column="0"/  For "borders" on labels -->
+                <Label BackgroundColor="#C424BA" TextColor="White" Margin="3" Grid.Row="0" Grid.Column="0" Scale="0.99" Text="You can see here that the text works excellently."/>
+                <Label BackgroundColor="#C424BA" TextColor="White" Margin="3" Grid.Row="0" Grid.Column="1" Scale="0.99" Text="You can see here that the text works excellently."/>
+                <Label BackgroundColor="#C424BA" TextColor="White" Margin="3" Grid.Row="1" Grid.Column="0" Scale="0.99" Text="You can see here that the text works excellently."/>
+                <Label BackgroundColor="#C424BA" TextColor="White" Margin="3" Grid.Row="1" Grid.Column="1" Scale="0.99" Text="You can see here that the text works excellently."/>
+                <Label BackgroundColor="#C424BA" TextColor="White" Margin="3" Grid.Row="2" Grid.Column="0" Scale="0.99" Text="You can see here that the text works excellently."/>
+                <Label BackgroundColor="#C424BA" TextColor="White" Margin="3" Grid.Row="2" Grid.Column="1" Scale="0.99" Text="You can see here that the text works excellently."/>
+            </Grid>
+
+            <Grid Padding="5" Grid.Row="2" Grid.Column="0">  <!--This is the third grid for bottom buttons-->
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+
+                <Button BorderWidth="1" TextColor="White" BackgroundColor="#C424BA" BorderColor="Black" Grid.Row="0" Grid.Column="0" Text="EXAMPLE"/>
+                <Button BorderWidth="1" TextColor="White" BackgroundColor="#C424BA" BorderColor="Black" Grid.Row="0" Grid.Column="1" Text="EXAMPLE"/>
+                <Button BorderWidth="1" TextColor="White" BackgroundColor="#C424BA" BorderColor="Black" Grid.Row="0" Grid.Column="2" Text="EXAMPLE"/>
+            </Grid>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>        

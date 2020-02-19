@@ -2,24 +2,53 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:abstractions="clr-namespace:ImageButton.Abstractions;assembly=ImageButton.Abstractions"
-             x:Class="A2J.Views.MainPage">
-    <Grid Padding="10">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-        </Grid.ColumnDefinitions>
-        <Label Text="A2J" FontSize="Medium" Grid.Row="0" Grid.Column="2" ></Label>
-        <Button Text="1" BackgroundColor="Red" Clicked="NavigateToRights_Clicked" WidthRequest="200" HeightRequest="25" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="1" CornerRadius="100" Grid.RowSpan="1"></Button>
-        <Button Text="2" BackgroundColor="Green" Clicked="NavigateToRights_Clicked" WidthRequest="200" HeightRequest="50" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="5" CornerRadius="3"></Button>
-        <Button Text="3" BackgroundColor="Black" Clicked="NavigateToRights_Clicked" WidthRequest="200" HeightRequest="50" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="5" CornerRadius="3"></Button>
-        <Button Text="4" BackgroundColor="Magenta" Clicked="NavigateToRights_Clicked" WidthRequest="250" HeightRequest="50" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="5" CornerRadius="3"></Button>
-        <Button Text="5" BackgroundColor="Purple" Clicked="NavigateToRights_Clicked" WidthRequest="275" HeightRequest="50" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="5" CornerRadius="3"></Button>
-        <Button Text="1.2" BackgroundColor="Azure" Clicked="NavigateToRights_Clicked" WidthRequest="50" HeightRequest="50" Grid.Row="6" Grid.Column="0" CornerRadius="100"></Button>
-        <Button Text="1.4" BackgroundColor="CadetBlue" Clicked="NavigateToRights_Clicked" WidthRequest="75" HeightRequest="75" Grid.Row="6" Grid.Column="2" CornerRadius="100"></Button>
-        <Button Text="1.6" BackgroundColor="BlanchedAlmond" Clicked="NavigateToRights_Clicked" WidthRequest="75" HeightRequest="75" Grid.Row="6" Grid.Column="4" CornerRadius="100"></Button>
-    </Grid>
+             x:Class="A2J.Views.MainPage"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="#FFD9F8">
+    
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Label FontFamily="Verdana" FontSize="Title"    Text="A2J"                    VerticalOptions="Start" Margin="10" HorizontalOptions="CenterAndExpand"/>
+            <Label FontFamily="Verdana" FontSize="Subtitle" Text="Student Housing Rights" VerticalOptions="Start" Margin="0"  HorizontalOptions="CenterAndExpand"/>
+
+            <Grid Padding="30">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <!--FontSize="Medium"-->
+                <Button Text="Blank -> Payments" Clicked="NavigateToPayments_Clicked"  Grid.Row="0" Grid.Column="0" CornerRadius="10" TextColor="White" FontFamily="Verdana" FontSize="14" BackgroundColor="#C424BA"></Button>
+                <Button Text="House Search"      Clicked="NavigateToRights_Clicked"    Grid.Row="1" Grid.Column="0" CornerRadius="10" TextColor="White" FontFamily="Verdana" FontSize="14" BackgroundColor="#C424BA"></Button>
+                <Button Text="Moving In"         Clicked="NavigateToRights_Clicked"    Grid.Row="2" Grid.Column="0" CornerRadius="10" TextColor="White" FontFamily="Verdana" FontSize="14" BackgroundColor="#C424BA"></Button>
+                <Button Text="Living In"         Clicked="NavigateToRights_Clicked"    Grid.Row="3" Grid.Column="0" CornerRadius="10" TextColor="White" FontFamily="Verdana" FontSize="14" BackgroundColor="#C424BA"></Button>
+                <Button Text="Moving Out"        Clicked="NavigateToMovingOut_Clicked" Grid.Row="4" Grid.Column="0" CornerRadius="10" TextColor="White" FontFamily="Verdana" FontSize="14" BackgroundColor="#C424BA"></Button>
+                <Button Text="Your Rights"       Clicked="NavigateToRights_Clicked"    Grid.Row="5" Grid.Column="0" CornerRadius="10" TextColor="White" FontFamily="Verdana" FontSize="14" BackgroundColor="#C424BA"></Button>
+
+                <!--Bottom buttons nested grid-->
+                <Grid Padding="10" Grid.Row="6" Grid.Column="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Button Text="Search" Clicked="NavigateToRights_Clicked" Grid.Row="0" Grid.Column="0" CornerRadius="10" TextColor="White" FontFamily="Verdana" FontSize="14" BackgroundColor="#C424BA"></Button>
+                    <Button Text="Menu"   Clicked="NavigateToRights_Clicked" Grid.Row="0" Grid.Column="1" CornerRadius="10" TextColor="White" FontFamily="Verdana" FontSize="14" BackgroundColor="#C424BA"></Button>
+                    <Button Text="Info"   Clicked="NavigateToRights_Clicked" Grid.Row="0" Grid.Column="2" CornerRadius="10" TextColor="White" FontFamily="Verdana" FontSize="14" BackgroundColor="#C424BA"></Button>
+                </Grid>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
 </ContentPage>

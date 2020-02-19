@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="A2J.Views.payments" NavigationPage.HasNavigationBar="False">
+    
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout> <!--This is the definition of stack which makes up most of the layout-->
+
+               <Label FontSize="Title" Text="A2J" VerticalOptions="Start" HorizontalOptions="CenterAndExpand"/>
+                <Label FontSize="Subtitle" Text="Payments" VerticalOptions="Start" HorizontalOptions="CenterAndExpand"/>
+
+                <Grid Padding="5"> <!--This is the first grid-->
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="4*"/>
+                        <ColumnDefinition Width="6*"/>
+                    </Grid.ColumnDefinitions>
+
+
+                    <Label BackgroundColor="Black" Grid.Row="0" Grid.Column="0"/>
+
+                    <Label BackgroundColor="White" Grid.Row="0" Grid.Column="0" Scale="0.99" Text="You can see here that the text works excellently."/>
+                    <Grid Grid.Row="0" Grid.Column="1" Scale="0.99">    <!--This sub-grid goes on the right hand side-->
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Label BackgroundColor="White" Grid.Row="0" Grid.Column="0" FontSize="20" Text="What are you looking for?"/>
+                        <Label BackgroundColor="White" Grid.Row="1" Grid.Column="0" FontSize="16" Text="- Application Fees"/>
+                        <Label BackgroundColor="White" Grid.Row="2" Grid.Column="0" FontSize="16" Text="- Agent Fees"/>
+                        <Label BackgroundColor="White" Grid.Row="3" Grid.Column="0" FontSize="16" Text="- Council Tax"/>
+                        <Label BackgroundColor="White" Grid.Row="4" Grid.Column="0" FontSize="16" Text="- Car Permits"/>
+                        <Label BackgroundColor="White" Grid.Row="5" Grid.Column="0" FontSize="16" Text="- Insurance"/>
+
+                    </Grid>
+
+                    
+                </Grid>
+
+                <Grid Padding="5">  <!--This is the second grid-->
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label BackgroundColor="Black" Grid.Row="0" Grid.Column="0"/>
+                    <Label BackgroundColor="White" Grid.Row="0" Grid.Column="0" Scale="0.99" FontSize="22"  Text="Application Fees"/>
+                    <!--Each paragram needs to go in it's own label, which may mean... nested grids!-->
+                    <Label BackgroundColor="Black" Grid.Row="1" Grid.Column="0"/>
+                    <Label BackgroundColor="White" Grid.Row="1" Grid.Column="0" Scale="0.99" FontSize="16"
+                           Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget placerat libero, 
+                           eu efficitur nunc. Nulla venenatis ultrices quam, sed congue est molestie nec. Morbi vitae posuere 
+                           risus. Praesent convallis ligula eget nisl pulvinar varius. Cras nulla eros, commodo ut quam vel, 
+                           suscipit porta tortor. Aliquam vitae risus ac est varius porttitor. Aliquam porttitor nunc in erat
+                           interdum, eu commodo nunc feugiat. Aenean vulputate eget odio lacinia venenatis. Vestibulum sed 
+                           orci enim. Nullam faucibus blandit luctus. Quisque sodales urna finibus auctor auctor. Aliquam 
+                           erat volutpat. Mauris at justo id ante pretium ultricies. Quisque aliquet justo non dui fermentum 
+                           egestas. Proin."/>
+                </Grid>
+
+                <Grid Padding="5">  <!--This is the third grid-->
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label BackgroundColor="Black" Grid.Row="0" Grid.Column="0"/>
+                    <Label BackgroundColor="White" Grid.Row="0" Grid.Column="0" Scale="0.99" FontSize="22"  Text="Agent Fees"/>
+                    <!--Each paragram needs to go in it's own label, which may mean... nested grids!-->
+                    <Label BackgroundColor="Black" Grid.Row="1" Grid.Column="0"/>
+                    <Label BackgroundColor="White" Grid.Row="1" Grid.Column="0" Scale="0.99" FontSize="16"
+                           Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget placerat libero, 
+                           eu efficitur nunc. Nulla venenatis ultrices quam, sed congue est molestie nec. Morbi vitae posuere 
+                           risus. Praesent convallis ligula eget nisl pulvinar varius. Cras nulla eros, commodo ut quam vel, 
+                           suscipit porta tortor. Aliquam vitae risus ac est varius porttitor. Aliquam porttitor nunc in erat
+                           interdum, eu commodo nunc feugiat. Aenean vulputate eget odio lacinia venenatis. Vestibulum sed 
+                           orci enim. Nullam faucibus blandit luctus. Quisque sodales urna finibus auctor auctor. Aliquam 
+                           erat volutpat. Mauris at justo id ante pretium ultricies. Quisque aliquet justo non dui fermentum 
+                           egestas. Proin."/>
+                </Grid>
+
+                <Grid Padding="5">  <!--This is the fourth grid-->
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label BackgroundColor="Black" Grid.Row="0" Grid.Column="0"/>
+                    <Label BackgroundColor="White" Grid.Row="0" Grid.Column="0" Scale="0.99" FontSize="22"  Text="Council Tax"/>
+                    <!--Each paragram needs to go in it's own label, which may mean... nested grids!-->
+                    <Label BackgroundColor="Black" Grid.Row="1" Grid.Column="0"/>
+                    <Label BackgroundColor="White" Grid.Row="1" Grid.Column="0" Scale="0.99" FontSize="16"
+                           Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget placerat libero, 
+                           eu efficitur nunc. Nulla venenatis ultrices quam, sed congue est molestie nec. Morbi vitae posuere 
+                           risus. Praesent convallis ligula eget nisl pulvinar varius. Cras nulla eros, commodo ut quam vel, 
+                           suscipit porta tortor. Aliquam vitae risus ac est varius porttitor. Aliquam porttitor nunc in erat
+                           interdum, eu commodo nunc feugiat. Aenean vulputate eget odio lacinia venenatis. Vestibulum sed 
+                           orci enim. Nullam faucibus blandit luctus. Quisque sodales urna finibus auctor auctor. Aliquam 
+                           erat volutpat. Mauris at justo id ante pretium ultricies. Quisque aliquet justo non dui fermentum 
+                           egestas. Proin."/>
+                </Grid>
+
+                <Grid Padding="5">  <!--This is the fifth grid-->
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label BackgroundColor="Black" Grid.Row="0" Grid.Column="0"/>
+                    <Label BackgroundColor="White" Grid.Row="0" Grid.Column="0" Scale="0.99" FontSize="22"  Text="Car Permits"/>
+                    <!--Each paragram needs to go in it's own label, which may mean... nested grids!-->
+                    <Label BackgroundColor="Black" Grid.Row="1" Grid.Column="0"/>
+                    <Label BackgroundColor="White" Grid.Row="1" Grid.Column="0" Scale="0.99" FontSize="16"
+                           Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget placerat libero, 
+                           eu efficitur nunc. Nulla venenatis ultrices quam, sed congue est molestie nec. Morbi vitae posuere 
+                           risus. Praesent convallis ligula eget nisl pulvinar varius. Cras nulla eros, commodo ut quam vel, 
+                           suscipit porta tortor. Aliquam vitae risus ac est varius porttitor. Aliquam porttitor nunc in erat
+                           interdum, eu commodo nunc feugiat. Aenean vulputate eget odio lacinia venenatis. Vestibulum sed 
+                           orci enim. Nullam faucibus blandit luctus. Quisque sodales urna finibus auctor auctor. Aliquam 
+                           erat volutpat. Mauris at justo id ante pretium ultricies. Quisque aliquet justo non dui fermentum 
+                           egestas. Proin."/>
+                </Grid>
+
+                <Grid Padding="5">  <!--This is the sixth grid-->
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    
+                    <Label BackgroundColor="Black" Grid.Row="0" Grid.Column="0"/>
+                    <Label BackgroundColor="White" Grid.Row="0" Grid.Column="0" Scale="0.99" FontSize="22"  Text="Insurance"/>
+                    <!--Each paragram needs to go in it's own label, which may mean... nested grids!-->
+                    <Label BackgroundColor="Black" Grid.Row="1" Grid.Column="0"/>
+                    <Label BackgroundColor="White"  Grid.Row="1" Grid.Column="0" Scale="0.99" FontSize="16"
+                           Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget placerat libero, 
+                           eu efficitur nunc. Nulla venenatis ultrices quam, sed congue est molestie nec. Morbi vitae posuere 
+                           risus. Praesent convallis ligula eget nisl pulvinar varius. Cras nulla eros, commodo ut quam vel, 
+                           suscipit porta tortor. Aliquam vitae risus ac est varius porttitor. Aliquam porttitor nunc in erat
+                           interdum, eu commodo nunc feugiat. Aenean vulputate eget odio lacinia venenatis. Vestibulum sed 
+                           orci enim. Nullam faucibus blandit luctus. Quisque sodales urna finibus auctor auctor. Aliquam 
+                           erat volutpat. Mauris at justo id ante pretium ultricies. Quisque aliquet justo non dui fermentum 
+                           egestas. Proin."/>
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -27,5 +27,10 @@ namespace A2J.Views
         {
             await Navigation.PushAsync(new payments());
         }
+
+        private async void NavigateToMovingIn_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MovingInPage());
+        }
     }
 }

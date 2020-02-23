@@ -18,12 +18,25 @@
     <Compile Update="Views\MovingOut.xaml.cs">
       <DependentUpon>MovingOut.xaml</DependentUpon>
     </Compile>
+
+    <Compile Update="Views\MovingInPage.xaml.cs">
+      <DependentUpon>MovingInPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Update="Views\MovingOut.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+
+    <EmbeddedResource Update="Views\MovingInChecklist.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+
+    <EmbeddedResource Update="Views\MovingInPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+
     <EmbeddedResource Update="Views\RightsPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>

@@ -5,7 +5,7 @@
              x:Class="A2J.Views.MainPage"
              NavigationPage.HasNavigationBar="False"
              BackgroundColor="White">
-    
+
     <ContentPage.Content>
         <StackLayout>
 
@@ -27,7 +27,7 @@
 
                 <!--FontSize="Medium"-->
                 <Button Text="House Search"      Clicked="NavigateToRights_Clicked"    Grid.Row="1" Grid.Column="0" CornerRadius="10" TextColor="White" FontFamily="Verdana" FontSize="14" BackgroundColor="#C424BA"></Button>
-                <Button Text="Moving In"         Clicked="NavigateToRights_Clicked"    Grid.Row="2" Grid.Column="0" CornerRadius="10" TextColor="White" FontFamily="Verdana" FontSize="14" BackgroundColor="#C424BA"></Button>
+                <Button Text="Moving In"         Clicked="NavigateToMovingIn_Clicked"    Grid.Row="2" Grid.Column="0" CornerRadius="10" TextColor="White" FontFamily="Verdana" FontSize="14" BackgroundColor="#C424BA"></Button>
                 <Button Text="Payments"          Clicked="NavigateToPayments_Clicked"  Grid.Row="0" Grid.Column="0" CornerRadius="10" TextColor="White" FontFamily="Verdana" FontSize="14" BackgroundColor="#C424BA"></Button>
                 <Button Text="Living In"         Clicked="NavigateToRights_Clicked"    Grid.Row="3" Grid.Column="0" CornerRadius="10" TextColor="White" FontFamily="Verdana" FontSize="14" BackgroundColor="#C424BA"></Button>
                 <Button Text="Moving Out"        Clicked="NavigateToMovingOut_Clicked" Grid.Row="4" Grid.Column="0" CornerRadius="10" TextColor="White" FontFamily="Verdana" FontSize="14" BackgroundColor="#C424BA"></Button>

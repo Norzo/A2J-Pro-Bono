@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="A2J.Views.AboutPage"
              xmlns:vm="clr-namespace:A2J.ViewModels"
-             Title="{Binding Title}"
+             Title="About the app"
              BackgroundColor="White">
     <ContentPage.BindingContext>
         <vm:AboutViewModel />
@@ -34,7 +34,7 @@
                     <Label.FormattedText>
                         <FormattedString>
                             <FormattedString.Spans>
-                                <Span Text="AppName" FontAttributes="Bold" FontSize="22" />
+                                <Span Text="Acess To Justice" FontAttributes="Bold" FontSize="22" />
                                 <Span Text=" " />
                                 <Span Text="1.0" ForegroundColor="{StaticResource LightTextColor}" />
                             </FormattedString.Spans>
@@ -62,6 +62,17 @@
                                 <Span Text="iOS, Android, and Windows" FontAttributes="Bold" />
                                 <Span Text=" " />
                                 <Span Text="versions." />
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label>
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span Text="Created by the" />
+                                <Span Text=" " />
+                                <Span Text="Pro Bono Society." FontAttributes="Bold" />
                             </FormattedString.Spans>
                         </FormattedString>
                     </Label.FormattedText>

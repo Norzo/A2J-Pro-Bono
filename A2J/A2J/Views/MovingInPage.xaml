@@ -4,7 +4,8 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="A2J.Views.MovingInPage">
+             x:Class="A2J.Views.MovingInPage"
+             Title="Moving In">
     <ContentPage.Content>
         <Grid Padding="5">
             <!--This is the definition for the master grid-->

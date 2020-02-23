@@ -10,17 +10,16 @@ using Xamarin.Forms.Xaml;
 namespace A2J.Views
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class MovingOut : ContentPage
+	public partial class LivingInPage : ContentPage
 	{
-		public MovingOut ()
+		public LivingInPage ()
 		{
 			InitializeComponent();
 		}
 
-        private async void NavigateToChecklist_MovingOut (object sender, EventArgs e)
+        private async void NavigateToChecklist_LivingIn (object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new MovingOutChecklist());
+            await Navigation.PushAsync(new LivingInChecklist());
         }
-
-    }
+	}
 }

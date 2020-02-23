@@ -32,5 +32,15 @@ namespace A2J.Views
         {
             await Navigation.PushAsync(new MovingInPage());
         }
+
+        private async void NavigateToAbout_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new AboutPage());
+        }
+
+        private async void NavigateToLivingIn_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new LivingInPage());
+        }
     }
 }

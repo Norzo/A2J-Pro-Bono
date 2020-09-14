@@ -23,9 +23,9 @@ namespace A2J.Views
             await Navigation.PushAsync(new MovingOut());
         }
 
-        private async void NavigateToPayments_Clicked(object sender, EventArgs e)
+        private async void NavigateToHouseSearch_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new payments());
+            await Navigation.PushAsync(new HouseSearchPage());
         }
 
         private async void NavigateToMovingIn_Clicked(object sender, EventArgs e)

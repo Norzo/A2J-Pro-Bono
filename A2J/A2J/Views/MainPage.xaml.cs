@@ -17,5 +17,10 @@ namespace A2J.Views
         {
             await Navigation.PushAsync(new RightsPage());
         }
+
+        private async void NavigateToHousesearch_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new HousesearchPage());
+        }
     }
 }

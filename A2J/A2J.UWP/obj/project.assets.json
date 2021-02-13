@@ -8832,24 +8832,27 @@
   },
   "packageFolders": {
     "C:\\Users\\bkfyt\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Git\\Repos\\A2J-Pro-Bono\\A2J\\A2J.UWP\\A2J.UWP.csproj",
+      "projectUniqueName": "E:\\Work\\A2J Pro Bono\\A2J\\A2J.UWP\\A2J.UWP.csproj",
       "projectName": "A2J.UWP",
-      "projectPath": "D:\\Git\\Repos\\A2J-Pro-Bono\\A2J\\A2J.UWP\\A2J.UWP.csproj",
+      "projectPath": "E:\\Work\\A2J Pro Bono\\A2J\\A2J.UWP\\A2J.UWP.csproj",
       "packagesPath": "C:\\Users\\bkfyt\\.nuget\\packages\\",
-      "outputPath": "D:\\Git\\Repos\\A2J-Pro-Bono\\A2J\\A2J.UWP\\obj\\",
+      "outputPath": "E:\\Work\\A2J Pro Bono\\A2J\\A2J.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
         "C:\\Users\\bkfyt\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "uap10.0.16299"
@@ -8861,8 +8864,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "D:\\Git\\Repos\\A2J-Pro-Bono\\A2J\\A2J\\A2J.csproj": {
-              "projectPath": "D:\\Git\\Repos\\A2J-Pro-Bono\\A2J\\A2J\\A2J.csproj"
+            "E:\\Work\\A2J Pro Bono\\A2J\\A2J\\A2J.csproj": {
+              "projectPath": "E:\\Work\\A2J Pro Bono\\A2J\\A2J\\A2J.csproj"
             }
           }
         }
